@@ -1,0 +1,348 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "default": {
+    "莉莉温娜": {},
+    "阿塞尔": {},
+    "王国军": {},
+    "战场": {},
+    "体内空间": {},
+    "互动进程": {},
+    "能力": {},
+    "翅膀": {}
+  },
+  "type": "object",
+  "properties": {
+    "莉莉温娜": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "当前形态": {
+          "default": "精灵圣女伪装",
+          "type": "string"
+        },
+        "魔神核心完整度": {
+          "default": 35,
+          "type": "number"
+        },
+        "虚无魔石融合度": {
+          "default": 0,
+          "type": "number"
+        },
+        "圣剑吸收度": {
+          "default": 0,
+          "type": "number"
+        },
+        "身体规模": {
+          "default": "少女体型",
+          "type": "string"
+        },
+        "核心受损度": {
+          "default": 0,
+          "type": "number"
+        }
+      }
+    },
+    "阿塞尔": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "生存状态": {
+          "default": "正常",
+          "type": "string"
+        },
+        "圣剑觉醒度": {
+          "default": 0,
+          "type": "number"
+        },
+        "圣力储备": {
+          "default": 20,
+          "type": "number"
+        },
+        "被污染度": {
+          "default": 0,
+          "type": "number"
+        }
+      }
+    },
+    "王国军": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "主力状态": {
+          "default": "宴会警戒",
+          "type": "string"
+        }
+      }
+    },
+    "战场": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "场景阶段": {
+          "default": "和平仪式",
+          "type": "string"
+        },
+        "世界毁灭度": {
+          "default": 0,
+          "type": "number"
+        }
+      }
+    },
+    "体内空间": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "阿塞尔所在位置": {
+          "default": "外部战场",
+          "type": "string"
+        },
+        "子宫核心状态": {
+          "default": "未显现",
+          "type": "string"
+        }
+      }
+    },
+    "互动进程": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "分支路线": {
+          "default": "原作毁灭线",
+          "type": "string"
+        },
+        "危机等级": {
+          "default": "宫廷阴谋",
+          "type": "string"
+        },
+        "下一事件触发": {
+          "default": "莉莉温娜接近索恩",
+          "type": "string"
+        }
+      }
+    },
+    "能力": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "粉雾转化": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "已解锁": {
+              "default": false,
+              "type": "boolean"
+            },
+            "覆盖范围": {
+              "default": 0,
+              "type": "number"
+            },
+            "转化人数": {
+              "default": 0,
+              "type": "number"
+            }
+          }
+        },
+        "魔力护膜": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "已激活": {
+              "default": false,
+              "type": "boolean"
+            },
+            "强度": {
+              "default": 0,
+              "type": "number"
+            },
+            "裂纹程度": {
+              "default": 0,
+              "type": "number"
+            }
+          }
+        },
+        "高压乳炮": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "已解锁": {
+              "default": false,
+              "type": "boolean"
+            },
+            "威力": {
+              "default": 0,
+              "type": "number"
+            },
+            "冷却": {
+              "default": 0,
+              "type": "number"
+            }
+          }
+        },
+        "吞噬吸引": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "已解锁": {
+              "default": false,
+              "type": "boolean"
+            },
+            "吸力强度": {
+              "default": 0,
+              "type": "number"
+            },
+            "已吞噬数量": {
+              "default": 0,
+              "type": "number"
+            }
+          }
+        },
+        "脐核光束": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "已解锁": {
+              "default": false,
+              "type": "boolean"
+            },
+            "精准度": {
+              "default": 0,
+              "type": "number"
+            },
+            "威力": {
+              "default": 0,
+              "type": "number"
+            }
+          }
+        },
+        "子嗣孕育": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "已解锁": {
+              "default": false,
+              "type": "boolean"
+            },
+            "当前孕育数": {
+              "default": 0,
+              "type": "number"
+            },
+            "已诞生子嗣": {
+              "default": {},
+              "type": "object",
+              "propertyNames": {
+                "type": "string"
+              },
+              "additionalProperties": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "乳汁分身": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "已解锁": {
+              "default": false,
+              "type": "boolean"
+            },
+            "当前分身数": {
+              "default": 0,
+              "type": "number"
+            },
+            "稳定度": {
+              "default": 0,
+              "type": "number"
+            }
+          }
+        },
+        "宇宙级吞噬": {
+          "default": {},
+          "type": "object",
+          "properties": {
+            "已解锁": {
+              "default": false,
+              "type": "boolean"
+            }
+          }
+        }
+      }
+    },
+    "翅膀": {
+      "default": {},
+      "type": "object",
+      "properties": {
+        "翅膀状态": {
+          "default": "未显现",
+          "type": "string"
+        },
+        "翅膀类型": {
+          "default": "无",
+          "type": "string"
+        },
+        "翅膀展开度": {
+          "default": 0,
+          "type": "number"
+        },
+        "翅膀规模": {
+          "default": "无",
+          "type": "string"
+        },
+        "翅膀根部位置": {
+          "default": "无",
+          "type": "string"
+        },
+        "翅膀颜色": {
+          "default": "无",
+          "type": "string"
+        },
+        "翅膀魔力活性": {
+          "default": 0,
+          "type": "number"
+        },
+        "翅膀飞行能力": {
+          "default": "无",
+          "type": "string"
+        },
+        "翅膀压迫感": {
+          "default": 0,
+          "type": "number"
+        },
+        "翅膀遮蔽范围": {
+          "default": 0,
+          "type": "number"
+        },
+        "翅膀拍动风压": {
+          "default": 0,
+          "type": "number"
+        },
+        "翅膀完整度": {
+          "default": 0,
+          "type": "number"
+        },
+        "翅膀与核心同步率": {
+          "default": 0,
+          "type": "number"
+        },
+        "翅膀触发来源": {
+          "default": "未触发",
+          "type": "string"
+        },
+        "翅膀当前动作": {
+          "default": "无",
+          "type": "string"
+        },
+        "翅膀叙事标记": {
+          "default": {},
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

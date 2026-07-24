@@ -1,5 +1,5 @@
 import { defineMvuDataStore } from '@util/mvu';
-import type { Schema } from '../../schema';
+import { Schema } from '../../schema';
 
 export const useDataStore = defineMvuDataStore(Schema, {
   type: 'message',

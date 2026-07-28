@@ -44,7 +44,11 @@
     "html-webpack-plugin": "^5.6.8",
     "javascript-obfuscator": "^5.5.0",
     "mini-css-extract-plugin": "^2.10.2",
+<<<<<<< HEAD
     "postcss": "^8.5.24",
+=======
+    "postcss": "^8.5.23",
+>>>>>>> 3ee370304f725ffc74d481bb24331e890bad1641
     "postcss-cli": "^11.0.1",
     "postcss-load-config": "^6.0.1",
     "postcss-loader": "^8.2.1",

@@ -5388,7 +5388,11 @@ snapshots:
       baseline-browser-mapping: 2.11.12
       caniuse-lite: 1.0.30001806
       electron-to-chromium: 1.5.400
+<<<<<<< HEAD
       node-releases: 2.0.52
+=======
+      node-releases: 2.0.51
+>>>>>>> ffcef6e22b372e2f3dcc1048bf50073234505d74
       update-browserslist-db: 1.2.3(browserslist@4.28.7)
 
   buffer-from@1.1.2: {}
@@ -7188,7 +7192,11 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
+<<<<<<< HEAD
       terser: 5.49.1
+=======
+      terser: 5.49.0
+>>>>>>> ffcef6e22b372e2f3dcc1048bf50073234505d74
       webpack: 5.109.2(postcss@8.5.25)(webpack-cli@7.2.2)
     optionalDependencies:
       postcss: 8.5.25
@@ -8015,7 +8023,11 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       jest-worker: 27.5.1
       schema-utils: 4.3.3
+<<<<<<< HEAD
       terser: 5.49.1
+=======
+      terser: 5.49.0
+>>>>>>> ffcef6e22b372e2f3dcc1048bf50073234505d74
       webpack: 5.109.2(postcss@8.5.25)(webpack-cli@7.2.2)
     optionalDependencies:
       postcss: 8.5.25
